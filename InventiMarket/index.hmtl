@@ -8,29 +8,5 @@
 </head>
 <body>
 
-    <h1>Validación de Banco</h1>
-    <form id="validacionForm">
-        <label for="txtNoTarjeta">Número de Tarjeta:</label>
-        <input type="text" id="txtNoTarjeta" name="numeroTarjeta" required>
-
-        <label for="txtNIP">NIP:</label>
-        <input type="password" id="txtNIP" name="NIP" required>
-
-        <button type="button" onclick="validar()">Validar</button>
-    </form>
-
-    <!-- Mostrar resultados aquí -->
-    <div id="resultado"></div>
-
-    <!-- Incluir aquí cualquier script adicional (JavaScript) necesario -->
-    <script>
-        function validar() {
-            // Lógica para obtener datos del formulario y realizar la solicitud al servicio REST
-            // ...
-
-            // Mostrar resultados en el div "resultado"
-            // ...
-        }
-    </script>
 </body>
 </html>
