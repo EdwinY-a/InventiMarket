@@ -9,8 +9,6 @@
 <body>
 
     <h1>Validación de Banco</h1>
-
-    <!-- Formulario para ingresar los datos -->
     <form id="validacionForm">
         <label for="txtNoTarjeta">Número de Tarjeta:</label>
         <input type="text" id="txtNoTarjeta" name="numeroTarjeta" required>
